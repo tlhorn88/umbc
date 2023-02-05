@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <link rel = "stylesheet" href = "final.css">
+    <title>UMBC</title>
+
+</head>
+
+<body>
+
+    <img id = "title" src = "title.png">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="final_about.html">About Us</a>
+            <li><a href="final_membership.html">Membership</a>
+            <li><a href="#">Contact</a>
+        </ul>
+    </nav>
+
+    <div id = "contactForm">
+        <table>
+            <form method = "POST" action = "mailto:fakeaddress@mymail.com" enctype ="text/plain">
+            
+                <tr>
+                    <td>
+                        <label for= "name">Name</label>
+                    </td>
+                    <td>
+                        <input type= "text" id= "name" name= "name" placeholder= "name">
+                    </td>
+                <tr>
+                <tr>
+                    <td>
+                        <label for= "email">Email</label>
+                    </td>
+                    <td>
+                        <input type= "text" id= "email" name= "email" placeholder= "email">
+                    </td>
+                <tr>
+                    <td>
+                        <label for = "comments">Let us know what you think:</label>
+                    </td>
+                    <td>
+                        <textarea name = "usercomments" rows = "10" cols = "60" wrap>enter comments here</textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset">
+                    </td>
+
+                    <td>
+
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+    
+    <footer class="footer">
+        <p>© Copyright 2022 UMBC, LLC All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
